@@ -2,7 +2,7 @@ CXX = g++
 CXXFLAGS = -Wall -std=c++14
 LDFLAGS = -lavcodec -lavutil -lavformat
 
-all: main
+all: main clean_obj
 
 main: main.o Encoder.o ROIManager.o
 	$(CXX) -o $@ $^ $(LDFLAGS)
@@ -15,6 +15,9 @@ Encoder.o: src/Encoder.cpp
 
 ROIManager.o: src/ROIManager.cpp
 	$(CXX) $(CXXFLAGS) -c $< -o $@
+
+clean_obj:
+	rm -f *.o
 
 clean:
 	rm -f *.o main
