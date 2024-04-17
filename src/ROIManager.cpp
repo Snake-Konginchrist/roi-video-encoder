@@ -1,8 +1,4 @@
-//
-// Created by IOT on 2024/4/17.
-//
 #include "../include/ROIManager.h"
-#include <iostream>
 
 ROIManager::ROIManager() {}
 

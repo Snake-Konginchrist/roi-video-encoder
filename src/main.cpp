@@ -2,11 +2,17 @@
 #include "../include/ROIManager.h"
 #include <iostream>
 
-int main() {
+int main(int argc, char *argv[]) {
+    if (argc != 3) {
+        std::cerr << "Usage: " << argv[0] << " <input file> <output file>\n";
+        return 1;
+    }
+
+    std::string inputVideo = argv[1];
+    std::string outputVideo = argv[2];
+
     Encoder enc;
     ROIManager roiManager;
-    std::string inputVideo = "input.yuv";
-    std::string outputVideo = "output.h264";
 
     if (!roiManager.setROI(inputVideo, 1920, 1080)) {
         std::cerr << "Error setting ROI" << std::endl;

@@ -1,7 +1,3 @@
-//
-// Created by IOT on 2024/4/17.
-//
-
 #ifndef ROI_VIDEO_ENCODER_ENCODER_H
 #define ROI_VIDEO_ENCODER_ENCODER_H
 
@@ -13,7 +9,7 @@ public:
     Encoder();
     bool initialize(int width, int height, const std::vector<int>& roiMask);
     bool encode(const std::string& inputPath, const std::string& outputPath);
-
+    std::vector<char> processBuffer(const char* data, size_t size);
 private:
     int width;
     int height;
