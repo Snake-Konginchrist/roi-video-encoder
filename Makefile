@@ -1,6 +1,6 @@
 CXX = g++
 CXXFLAGS = -Wall -std=c++14
-LDFLAGS = -lavcodec -lavutil -lavformat
+LDFLAGS = -lavcodec -lavutil -lavformat -lx264
 
 all: main clean_obj
 
