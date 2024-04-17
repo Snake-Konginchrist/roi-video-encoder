@@ -49,12 +49,6 @@ cmake_ninja_workdir = E$:/CLionProjects/ROI$ Video$ Encoder/cmake-build-debug/
 
 build cmake_object_order_depends_target_ROI_Video_Encoder: phony || CMakeFiles/ROI_Video_Encoder.dir
 
-build CMakeFiles/ROI_Video_Encoder.dir/main.cpp.obj: CXX_COMPILER__ROI_Video_Encoder_unscanned_Debug E$:/CLionProjects/ROI$ Video$ Encoder/main.cpp || cmake_object_order_depends_target_ROI_Video_Encoder
-  DEP_FILE = CMakeFiles\ROI_Video_Encoder.dir\main.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\ROI_Video_Encoder.dir
-  OBJECT_FILE_DIR = CMakeFiles\ROI_Video_Encoder.dir
-
 build CMakeFiles/ROI_Video_Encoder.dir/src/main.cpp.obj: CXX_COMPILER__ROI_Video_Encoder_unscanned_Debug E$:/CLionProjects/ROI$ Video$ Encoder/src/main.cpp || cmake_object_order_depends_target_ROI_Video_Encoder
   DEP_FILE = CMakeFiles\ROI_Video_Encoder.dir\src\main.cpp.obj.d
   FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
@@ -81,7 +75,7 @@ build CMakeFiles/ROI_Video_Encoder.dir/src/ROIManager.cpp.obj: CXX_COMPILER__ROI
 #############################################
 # Link the executable ROI_Video_Encoder.exe
 
-build ROI_Video_Encoder.exe: CXX_EXECUTABLE_LINKER__ROI_Video_Encoder_Debug CMakeFiles/ROI_Video_Encoder.dir/main.cpp.obj CMakeFiles/ROI_Video_Encoder.dir/src/main.cpp.obj CMakeFiles/ROI_Video_Encoder.dir/src/Encoder.cpp.obj CMakeFiles/ROI_Video_Encoder.dir/src/ROIManager.cpp.obj
+build ROI_Video_Encoder.exe: CXX_EXECUTABLE_LINKER__ROI_Video_Encoder_Debug CMakeFiles/ROI_Video_Encoder.dir/src/main.cpp.obj CMakeFiles/ROI_Video_Encoder.dir/src/Encoder.cpp.obj CMakeFiles/ROI_Video_Encoder.dir/src/ROIManager.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\ROI_Video_Encoder.dir
