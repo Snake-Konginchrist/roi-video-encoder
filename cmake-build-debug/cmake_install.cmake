@@ -1,4 +1,4 @@
-# Install script for directory: E:/CLionProjects/ROI Video Encoder
+# Install script for directory: D:/Administrator/CLionProjects/roi-video-encoder
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/CLionProjects/ROI Video Encoder/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Administrator/CLionProjects/roi-video-encoder/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

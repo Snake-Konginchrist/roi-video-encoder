@@ -101,6 +101,9 @@ ffmpeg -i input.mp4 -s 1920x1080 -pix_fmt yuv420p input.yuv
 
 确保替换 `input.yuv` 和 `output.h264` 为您实际的输入文件和期望的输出文件名。
 
+## 打开h264文件
+对视频文件进行ROI编码后，用Elecard StreamEye分析码流。[官网下载地址](https://www.elecard.com/zh/products/video-analysis/streameye)
+
 ## 功能概述
 
 ### ROI选择和标识
