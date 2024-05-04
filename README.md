@@ -166,5 +166,8 @@ ffmpeg -i input.mp4 -s 1920x1080 -pix_fmt yuv420p input.yuv
 - ROI选择工具。
 - 维护和升级指南。
 
----
-感谢您对我们项目的关注，我们期待您的反馈与建议。
+## 联系方式
+感谢您对我们项目的关注，我们期待您的反馈与建议，请通过以下方式联系我们：
+- GitHub: [Snake-Konginchrist](https://github.com/Snake-Konginchrist)
+- Gitee: [Snake-Konginchrist](https://gitee.com/Snake-Konginchrist)
+- Email: developer@skstudio.cn（优先）
